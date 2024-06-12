@@ -1,9 +1,10 @@
 import os
-import yaml
-import csv
 import inquirer
 
-regions = os.listdir("repeaters")
+from codeplug.builder import BuildOptions, build_config
+from codeplug.serialize import serialize
+
+regions = os.listdir("data/repeaters")
 
 questions = [
     inquirer.Checkbox("regions", "Which regions would you like to include?", regions),
@@ -15,3 +16,15 @@ questions = [
 ]
 
 answers = inquirer.prompt(questions)
+
+options = BuildOptions(
+    regions=answers["regions"],
+    weather=(answers["weather"] == "Yes"),
+    gmrs=answers["gmrs"].lower(),
+    frs=(answers["frs"] == "Yes"),
+    murs=(answers["murs"] == "Yes"),
+    marine=("yes" if answers["marine"] == "Yes" else "starred" if answers["marine"] == "Most Common" else "no"),
+)
+
+config = build_config(options)
+print(serialize(config))
