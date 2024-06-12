@@ -8,7 +8,7 @@ regions = os.listdir("data/repeaters")
 
 questions = [
     inquirer.Checkbox("regions", "Which regions would you like to include?", regions),
-    inquirer.List("weather", "Would you like to include weather radio? (NOAA Weather Alert and Weatheadio)", ["Yes", "No"]),
+    inquirer.List("weather", "Would you like to include weather radio? (NOAA Weather Alert and Weatheradio)", ["Yes", "No"]),
     inquirer.List("gmrs", "Would you like to include GMRS channels?", ["All", "Simplex", "Repeaters", "None"]),
     inquirer.List("frs", "Would you like to include FRS channels?", ["Yes", "No"]),
     inquirer.List("murs", "Would you like to include MURS channels?", ["Yes", "No"]),
