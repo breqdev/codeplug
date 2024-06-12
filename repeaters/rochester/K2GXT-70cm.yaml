@@ -1,0 +1,12 @@
+frequency: 442.075
+type: duplex
+offset: +5.0
+tone: 110.9
+mode: FM
+
+site:
+    operator: RIT Amateur Radio Club
+    callsign: K2GXT
+    location: Ellingson Hall, RIT, Rochester, NY
+    latitude: 43.086293566435494
+    longitude: -77.66801462013211

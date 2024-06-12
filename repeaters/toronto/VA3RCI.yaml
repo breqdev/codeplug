@@ -1,0 +1,12 @@
+frequency: 444.8
+type: duplex
+offset: +5.0
+tone:
+  tx: 100.0
+mode: FM
+
+site:
+    callsign: VA3RCI
+    location: CN Tower, Toronto, ON
+    latitude: 43.64257136901754
+    longitude: -79.387096664427

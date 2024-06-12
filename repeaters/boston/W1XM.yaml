@@ -1,0 +1,12 @@
+frequency: 449.725
+type: duplex
+offset: -5.0
+tone: 114.8
+mode: FM
+
+site:
+    operator: MIT Radio Society
+    callsign: W1XM
+    location: Green Building, MIT, Cambridge, MA
+    latitude: 42.36031817254661
+    longitude: -71.08933487022264

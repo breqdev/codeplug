@@ -1,0 +1,12 @@
+frequency: 442.200
+type: duplex
+offset: +5.0
+tone: 110.9
+mode: FM
+
+site:
+    operator: Skenoh Island Amateur Radio Club
+    callsign: W2ONT
+    location: Gannett Hill, South Bristol, NY
+    latitude: 42.70005659045279
+    longitude: -77.40857427548464

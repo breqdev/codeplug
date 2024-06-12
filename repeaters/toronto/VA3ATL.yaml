@@ -1,0 +1,12 @@
+frequency: 444.775
+type: duplex
+offset: +5.0
+tone: 110.9
+mode: FM
+
+site:
+    operator: SSPDB Amateur Radio Repeater Network
+    callsign: VA3ATL
+    location: Downtown Toronto, ON
+    latitude: 43.65479782503879
+    longitude:  -79.3883007052584

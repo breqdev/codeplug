@@ -1,0 +1,12 @@
+frequency: 146.66
+type: duplex
+offset: -0.6
+tone: 103.5
+mode: FM
+
+site:
+    operator: Highline Amateur Radio Club
+    callsign: NC7G
+    location: SeaTac Airport, Seatac, WA
+    latitude: 47.44811857965657
+    longitude: -122.30184691716957

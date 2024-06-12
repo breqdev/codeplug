@@ -1,0 +1,14 @@
+frequency: 146.850
+type: duplex
+offset: -0.6
+tone:
+  tx: 136.5
+  rx: 127.3
+mode: FM
+
+site:
+    operator: Long Island Mobile Amateur Radio Club
+    callsign: W2VL
+    location: Glen Oaks, Queens, NY
+    latitude: 40.75775737498443
+    longitude: -73.71608772888905

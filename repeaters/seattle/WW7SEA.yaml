@@ -1,0 +1,11 @@
+frequency: 444.55
+type: duplex
+offset: +5.0
+tone: 141.3
+mode: FM
+
+site:
+    callsign: WW7SEA
+    location: Columbia Center, Seattle, WA
+    latitude: 47.604537932377674
+    longitude: -122.33067158349404

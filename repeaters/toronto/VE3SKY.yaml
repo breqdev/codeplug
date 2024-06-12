@@ -1,0 +1,12 @@
+frequency: 146.985
+type: duplex
+offset: -0.6
+tone: 103.5
+mode: FM
+
+site:
+    operator: Skywide Amateur Radio Club
+    callsign: VE3SKY
+    location: Dufferin and Eglinton, Toronto, ON
+    latitude: 43.695695547306215
+    longitude: -79.45031121089342

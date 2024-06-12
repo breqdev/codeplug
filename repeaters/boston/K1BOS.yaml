@@ -1,0 +1,12 @@
+frequency: 146.82
+type: duplex
+offset: -0.6
+tone: 127.3
+mode: FM
+
+site:
+    operator: Minuteman Repeater Association
+    callsign: K1BOS
+    location: Prudential Tower, Boston, MA
+    latitude: 42.34714335073024
+    longitude: -71.0825275694135

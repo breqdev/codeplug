@@ -1,0 +1,12 @@
+frequency: 145.31
+type: duplex
+offset: -0.6
+tone: 123.0
+mode: FM
+
+site:
+    operator: Northeastern University Wireless Club
+    callsign: W1KBN
+    location: West Village H, NEU, Boston, MA
+    latitude: 42.338738814503195
+    longitude: -71.09220660910007

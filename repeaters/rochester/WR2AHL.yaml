@@ -1,0 +1,12 @@
+frequency: 145.11
+type: duplex
+offset: +0.6
+tone: 110.9
+mode: FM
+
+site:
+    operator: 145.11 Repeater
+    callsign: WR2AHL
+    location: Bristol Mountain, South Bristol, NY
+    latitude: 42.73100816139847
+    longitude: -77.42593091190402

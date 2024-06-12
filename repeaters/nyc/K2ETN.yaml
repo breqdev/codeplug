@@ -1,0 +1,12 @@
+frequency: 146.955
+type: duplex
+offset: -0.6
+tone: 141.3
+mode: FM
+
+site:
+    operator: Chestnut Ridge Radio Club
+    callsign: K2ETN
+    location: Alpine, NJ
+    latitude: 40.96171888536772
+    longitude: -73.92393479909104

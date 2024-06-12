@@ -1,0 +1,12 @@
+frequency: 440.55
+type: duplex
+offset: +5.0
+tone: 141.3
+mode: FM
+
+site:
+    operator: KC2GOW Repeater System
+    callsign: KC2GOW
+    location: Times Square, Manhattan, NY
+    latitude: 40.759035622402855
+    longitude: -73.984536101095

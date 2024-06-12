@@ -1,0 +1,12 @@
+frequency: 146.82
+type: duplex
+offset: -0.6
+tone: 110.9
+mode: FM
+
+site:
+    operator: Skenoh Island Amateur Radio Club
+    callsign: K2BWK
+    location: Canandaigua, NY
+    latitude: 42.887935027285536
+    longitude: -77.28150108942702

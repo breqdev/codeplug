@@ -1,0 +1,13 @@
+frequency: 449.075
+type: duplex
+offset: -5.0
+tone:
+  tx: 88.5
+mode: FM
+
+site:
+    operator: Waltham Amateur Radio Association
+    callsign: W1MHL
+    location: Waltham, MA
+    latitude: 42.3752220260014
+    longitude: -71.23585505194092

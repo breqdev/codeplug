@@ -1,0 +1,12 @@
+frequency: 147.060
+type: duplex
+offset: +0.6
+tone: 114.8
+mode: FM
+
+site:
+    operator: Westchester Emergency Communications Association
+    callsign: WB2ZII
+    location: Valhalla, Westchester County, NY
+    latitude: 41.080464
+    longitude: -73.778207

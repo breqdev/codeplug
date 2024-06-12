@@ -1,0 +1,12 @@
+frequency: 146.97
+type: duplex
+offset: -0.6
+tone: 114.8
+mode: FM
+
+site:
+    operator: Central Massachusetts Amateur Radio Association
+    callsign: W1BIM
+    location: Asnebumskit Hill, Paxton, MA
+    latitude: 42.30116838694072
+    longitude: -71.89667489177752

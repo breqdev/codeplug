@@ -1,0 +1,14 @@
+frequency: 145.23
+type: duplex
+offset: -0.6
+tone:
+  tx: 88.5
+  rx: 100.0
+mode: FM
+
+site:
+    operator: Boston Amateur Radio Club
+    callsign: W1BOS
+    location: Downtown Boston, MA
+    latitude: 42.35270434358525
+    longitude: -71.05416874418222
