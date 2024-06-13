@@ -5,6 +5,7 @@ from codeplug.channel import Channel
 from codeplug.loaders import csv_loader
 from codeplug.loaders.directory_loader import load_directory
 
+
 @dataclass
 class BuildOptions:
     regions: list[str]
@@ -14,11 +15,16 @@ class BuildOptions:
     murs: bool
     marine: Literal["yes", "starred", "no"]
 
+
 def build_config(options: BuildOptions) -> list[Channel]:
     channels = []
 
     for region in options.regions:
-        channels.extend(load_directory(f"data/repeaters/{region}", only_starred=(options.marine == "starred")))
+        channels.extend(
+            load_directory(
+                f"data/repeaters/{region}", only_starred=(options.marine == "starred")
+            )
+        )
 
     if options.weather:
         channels.extend(csv_loader.load_file("data/weather.csv"))
@@ -35,6 +41,10 @@ def build_config(options: BuildOptions) -> list[Channel]:
         channels.extend(load_directory("data/murs"))
 
     if options.marine != "no":
-        channels.extend(csv_loader.load_file("data/marine.csv", only_starred=(options.marine == "starred")))
+        channels.extend(
+            csv_loader.load_file(
+                "data/marine.csv", only_starred=(options.marine == "starred")
+            )
+        )
 
     return channels

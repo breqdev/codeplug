@@ -1,6 +1,14 @@
 import yaml
 
-from codeplug.channel import Channel, ChannelType, ChannelMode, CtcssTone, DtcsTone, Site
+from codeplug.channel import (
+    Channel,
+    ChannelType,
+    ChannelMode,
+    CtcssTone,
+    DtcsTone,
+    Site,
+)
+
 
 def load_file(file: str) -> Channel:
     with open(file) as f:
@@ -12,7 +20,7 @@ def load_file(file: str) -> Channel:
             callsign=data["site"].get("callsign"),
             location=data["site"].get("location"),
             latitude=data["site"].get("latitude"),
-            longitude=data["site"].get("longitude")
+            longitude=data["site"].get("longitude"),
         )
     else:
         site = None
